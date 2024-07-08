@@ -447,3 +447,96 @@
 //     console.log("So lẻ");
 //     break;
 // }
+
+// Cho mảng: [2, 7, 9, 1, 6, 44, 7, 23]
+// Duyệt qua vòng lặp và tính tổng các số chắn, tổng các số lẻ.
+// Tìm số lớn nhất và nhỏ nhất.
+// Tìm số lớn thứ ba.
+// Đảo ngược các số trong mảng.
+// Kiểm tra và in ra số nguyên tố.
+// let A = [2, 7, 9, 1, 6, 44, 7, 23];
+// for (let i = 0; i < A.length - 1; i++) {
+//   for (let j = i + 1; j < A.length; j++) {
+//     if (A[i] > A[j]) {
+//       let duong = A[i];
+//       A[i] = A[j];
+//       A[j] = duong;
+//     }
+//   }
+// }
+// console.log(A);
+
+// let sum = "";
+// for (i = 0; i < 5; i++) {
+//   sum += i;
+//   console.log(sum);
+// }
+
+// let email = prompt("Mời bạn nhập ");
+// let password = prompt("Mời bạn nhập");
+
+// if (email !== "admin@gmail.com" || password !== "123123") {
+//   alert("không chuẩn");
+// } else {
+//   alert("chuẩn welcome");
+// }
+
+// let email = prompt("Mời bạn nhập email ");
+// let password = prompt("Mời bạn nhập password");
+
+// while (email !== "admin@gmail.com" || password !== "123123") {
+//   alert("Không thành công");
+//   let email = prompt("Mời bạn nhập email ");
+//   let password = prompt("Mời bạn nhập email");
+// }
+
+// alert("Đăng nhập ok");
+
+// let result = 28;
+// while (true) {
+//   let answer = +prompt("Nhất của nhật");
+//   if (answer > result) {
+//     alert("Số to qua mày à");
+//   } else if (answer < result) {
+//     alert("Số mini");
+//   } else {
+//     alert("OK");
+//     break;
+//   }
+// }
+
+// do....while
+// let number = 2;
+
+// while (number === 1) {
+//   console.log("vong lap while");
+// }
+
+// do{
+//   console.log("vòng lăp do...while")
+// } while(number ===1)
+
+// let result = Math.pow(2, 7);
+// console.log(result);
+
+// let Numberinput = +prompt("Nhập vào");
+// let strNumber = Numberinput.toString();
+// let sum = 0;
+
+// for (let i = 0; i <= strNumber.length - 1; i++) {
+//   let ConverNumb = Number(strNumber[i]);
+//   sum = sum + Math.pow(ConverNumb, strNumber.length);
+// }
+
+// if (sum === Numberinput) {
+//   alert(`${Numberinput} là số Ams`);
+// } else {
+//   alert(`${Numberinput} k fai`);
+// }
+
+let n = prompt("Nhập");
+let r = "";
+for (let i = n.length - 1; i >= 0; i--) {
+  r += n[i];
+}
+alert(`${r}`);

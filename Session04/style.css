@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+section{
+    color: blanchedalmond;
+    background-color: blue;
+}
+div{
+    color: blanchedalmond;
+    background-color: red;
+}
+section{
+    color: black;
+    background-color: blue;
+}
+#Lorem_cuoi {
+    color: cadetblue;
+    background-color: rgb(255, 0, 30);
+}
+.s2-style{
+    color: black;
+    background-color: brown;
+}
+section .b_style{
+    color: black;
+    background-color: burlywood;
+}
+.demo_class{
+    
+    background-color: rgb(255, 100, 146);
+    color:black ;
+}
+.demo_text_css{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: wavy underline rgb(76, 0, 255);
+}
+h1 {
+    text-align: center;
+    text-decoration: wavy overline black;
+    letter-spacing: 5px;
+    line-height: 50px;
+    font-family: "Arial";
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+}
+.box-model{
+    background-color:red;
+    color: white;
+    font-size: 30px;
+    width: 300px;
+    height: 300px;
+    margin:100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px ;
+    margin-right: 200px;
+    /* padding:100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 20px; */
+    padding: 50px 50px;
+    padding: 20px 30px 40px 50px ;
+    border: 10px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}

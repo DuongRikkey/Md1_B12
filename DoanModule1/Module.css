@@ -1,0 +1,138 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/* <!-- Start: Nav-Introduce --> */
+.navbar {
+  background-color: #bf1e2e;
+  height: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.navbar .navbar-search input {
+  width: 440px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+}
+::placeholder {
+  padding-left: 20px;
+}
+.line {
+  height: 40px;
+  width: 0.7px;
+  background-color: white;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.navbar .navbar-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .navbar-search ul {
+  display: flex;
+}
+.navbar .navbar-search .navbar-support {
+  display: flex;
+}
+.navbar-register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-register ul li a {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff;
+}
+.navbar-register ul li a .member {
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.list-item {
+  gap: 5px;
+  margin-top: 10px;
+}
+.list-item .child a {
+  color: #fff700;
+  line-height: 19.2px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.list-item .main a {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: block;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  height: 21.75px;
+  line-height: 21.76px;
+}
+.navbar-support {
+  margin-left: 70px;
+  display: flex;
+  gap: 30px;
+}
+.navbar-support .bottom {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.navbar-support .navbar-hot {
+  color: #ffffff;
+  font-size: 19px;
+}
+.basket {
+  font-size: 30px;
+}
+.click {
+  position: relative;
+  overflow: hidden;
+}
+button {
+  position: absolute;
+  top: 3px;
+  right: 4px;
+  padding: 12px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  scale: 1.2;
+  background-color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+button i {
+  font-size: 18px;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.xam {
+  margin-top: 100px;
+}
+/* <!-- End: Nav-Introduce --> */

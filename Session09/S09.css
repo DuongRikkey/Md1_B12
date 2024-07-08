@@ -1,0 +1,619 @@
+* {
+  font-family: "Cabin", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #231651;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.section-style {
+  padding: 10px 150px;
+  position: relative;
+}
+@media only screen and (max-width: 1200px) {
+  .section-style {
+    padding: 10px 10px;
+  }
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 10px 3px 5px 0px rgba(213, 191, 191, 0.75);
+}
+.main-nav .logo img {
+  width: 145px;
+}
+.main-nav .nav-item {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.main-nav .nav-item .list-item {
+  list-style-type: none;
+}
+.main-nav .languge {
+  display: flex;
+  align-items: center;
+  background-color: #f8f7fa;
+  padding: 7px 14px;
+  border-radius: 4px;
+}
+.responsive-navbar {
+  display: none;
+}
+
+@media only screen and (max-width: 960px) {
+  .main-nav {
+    display: none;
+  }
+  .responsive-navbar {
+    display: flex;
+  }
+}
+/* HEADER CSS */
+header {
+  display: flex;
+  background-image: url(https://rikkei.edu.vn/wp-content/uploads/2024/01/bg-home1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 550px;
+}
+header .hero-image {
+  width: 600px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+header .hero-section {
+  margin-bottom: 30px;
+  margin-left: 55px;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+header h2 {
+  font-size: 32px;
+  line-height: 48px;
+}
+header .hero-section ul li {
+  padding-left: 35px;
+  line-height: 25px;
+  background: url(https://rikkei.edu.vn/wp-content/themes/hoabinhweb-v3-154-child-theme/image/icon-check.png)
+    no-repeat top left;
+  background-size: 25px;
+  padding-bottom: 10px;
+}
+.bt1 {
+  background-color: #bd2228;
+  border-radius: 5px;
+  padding: 7px 15px;
+  border-color: rgba(0, 0, 0, 0.05);
+  color: #fff;
+  font-size: 16px;
+}
+.bt2 {
+  padding: 7px 15px;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.05);
+  color: #fff;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0);
+}
+span {
+  color: black;
+}
+.button123 {
+  display: flex;
+  margin-top: 25px;
+}
+.sang {
+  margin-left: 15px;
+}
+section {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+}
+
+.main1:hover {
+  transform: translateY(-20px);
+  transition: all 0.2s ease-in;
+}
+
+section div {
+  text-align: center;
+  background-color: white;
+  padding: 25px;
+  border-radius: 5px;
+  border: 1px solid rgba(200, 200, 200, 0.5);
+  box-shadow: 0px 8px 5px 0px rgba(206, 184, 184, 0.75);
+}
+.main1 p {
+  padding: 10px;
+  line-height: 25px;
+}
+h2 {
+  color: #b5252c;
+}
+@media only screen and (max-width: 960px) {
+  header {
+    flex-direction: column;
+  }
+  header .layout_section {
+    height: 480px;
+  }
+  header .hero-image {
+    width: 100%;
+  }
+  header .hero-section {
+    top: 100px;
+    left: 10px;
+  }
+  header .layout- .responsive-navbar {
+    display: flex;
+  }
+}
+.dortmund {
+  padding-top: 180px;
+  display: flex;
+  padding-left: 215px;
+  align-items: center;
+  background-color: #f8f8fa;
+  padding-bottom: 180px;
+}
+.chelshit2 {
+  align-items: center;
+  padding-left: 50px;
+  width: 650px;
+}
+.chelshit2 p {
+  font-size: 20px;
+}
+.chelshit2 h2 {
+  font-size: 30px;
+}
+
+.mama {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: ;
+  gap: 20px;
+}
+.arsenal h5 {
+  color: #9c4b59;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.arsenal {
+  padding: 10px;
+  font-size: 20px;
+}
+.luaga {
+  padding-top: 50px;
+}
+.maintotal {
+  padding: 70px 215px;
+}
+.luaga {
+  color: #b5252c;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+.goal .r7 {
+  background-color: #b5252c;
+  padding: 12px 25px;
+  color: #f8f7fa;
+  border-radius: 5%;
+  border-color: rgba(0, 0, 0, 0.05);
+  font-size: 18px;
+}
+.goal {
+  padding-top: 25px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.m10 {
+  background-color: #fffffe;
+  padding: 12px 25px;
+  color: #231651;
+  border-color: rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  font-size: 18px;
+}
+.hihi {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-basis: 30%;
+  padding: 25px 200px;
+  gap: 20px;
+  background-color: #f8f8fa;
+}
+.hihi ul li {
+  background: url(https://rikkei.edu.vn/wp-content/themes/hoabinhweb-v3-154-child-theme/image/icon-check1.png)
+    no-repeat top left;
+  line-height: 25px;
+  padding-left: 25px;
+  padding-bottom: 10px;
+}
+.hihi h3 {
+  padding-bottom: 20px;
+  color: #271938;
+  list-style: 30px;
+}
+.hihi1 {
+  width: 600px;
+  background-color: #ffffff;
+}
+.bb {
+  padding: 20px 20px;
+}
+.hihidad {
+  background-color: #f8f8fa;
+}
+.hihidad p {
+  padding-top: 90px;
+  padding-left: 210px;
+  font-weight: bold;
+  color: #b42532;
+  font-size: 25px;
+}
+.clcc {
+  background-color: #f8f7fa;
+  padding-bottom: 75px;
+}
+.ga {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px 215px;
+  gap: 10px 10px;
+}
+.ga .noname span {
+  padding-left: 10px;
+}
+input {
+  color: b;
+}
+b {
+  font-weight: lighter;
+  background-color: #f8f8fa;
+  border-radius: 5px;
+  padding: 0 5px;
+  border: 1px solid rgba(100, 100, 200, 0.5);
+}
+.lov {
+  width: 555px;
+}
+.noname p {
+  padding-bottom: 5px;
+}
+.abe {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.noname {
+  padding-bottom: 20px;
+}
+.xamqua {
+  padding-left: 215px;
+  padding-right: 215px;
+  padding-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.xamqua .hehe {
+  padding-right: 65px;
+  font-size: 16px;
+}
+.xamqua .tt {
+  font-size: 25px;
+  color: #b42532;
+  font-weight: bold;
+}
+.tovl {
+  padding: 0 215px;
+}
+.xamqua .huhu {
+  color: #b42532;
+}
+.boss {
+  width: 260px;
+  overflow: hidden;
+}
+.gas {
+  padding: 15px;
+  border: 1px solid black;
+  background-color: #ffffff;
+}
+.gas .ab {
+  border: 1px solid rgba(200, 200, 200, 0.5);
+}
+.flex-rikey {
+  text-align: center;
+}
+.nameboss p {
+  color: #3d345e;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 7px;
+}
+.position p {
+  width: 40%;
+  text-align: center;
+  background-color: #f8f8fa;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px 0;
+}
+.position {
+  padding-left: 90px;
+}
+.achieve {
+  padding-top: 15px;
+  padding-bottom: 80px;
+}
+.achieve p {
+  padding: 5px;
+}
+.all {
+  padding-right: 75px;
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+}
+.achieveq {
+  padding-bottom: 17px;
+}
+.positionq {
+  width: 100%;
+  text-align: ;
+  display: flex;
+  justify-content: center;
+  padding-left: 12px;
+}
+.positionq .oai {
+  background-color: #f8f8fa;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.achieveq p {
+  padding: 5px 0;
+}
+.all {
+  padding-bottom: 90px;
+}
+.rg {
+  height: 500px;
+  background: url(./image/z5580993225846_b205d7caad58b59e12b662da839e3467.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.rg .text1 {
+  padding-top: 180px;
+  padding-left: 210px;
+  justify-content: center;
+  gap: 100px;
+  position: relative;
+}
+.rg .text1 .d2333 {
+  width: 30%;
+  height: 80px;
+}
+.d2333 .ngon {
+  color: #fffafb;
+  background-color: #bd2228;
+  height: 72px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.ngon1 {
+  font-size: 18px;
+  height: 68px;
+  color: #fffafb;
+}
+.timeforlua {
+  display: flex;
+  gap: 45px;
+  padding-left: 35px;
+  padding-top: 20px;
+}
+.timeforlua .t1 {
+  font-weight: bold;
+  font-size: 35px;
+  color: #fffafb;
+}
+.t2 {
+  font-size: 15px;
+  color: #fffafb;
+}
+.bigbang {
+  background-color: #fffafb;
+  position: absolute;
+  padding: 25px 5px;
+  top: 100px;
+  right: 280px;
+}
+.bangbig {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px;
+}
+.bangbig input,
+.bangbig select {
+  padding: 7px 7px;
+  padding-bottom: 10px;
+  width: 470px;
+  border-radius: 5px;
+  border: 1px solid rgba(200, 200, 200, 0.5);
+}
+.bangbig label {
+  font-weight: 300px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.bangbig button {
+  height: 35px;
+  background-color: #b42532;
+  color: #fffffe;
+  border: 1px solid rgba(200, 200, 200, 0.5);
+  border-radius: 5px;
+}
+.rocha {
+  padding-top: 50px;
+}
+.sidog {
+  background-color: #f8f8fa;
+  padding-left: 280px;
+  padding-right: 280px;
+  padding-bottom: 90px;
+}
+.colen2 {
+  width: 310px;
+  background-color: #ffffff;
+}
+.colen2 .cat {
+  padding: 10px;
+}
+.colen2 .chu {
+  font-size: 15px;
+}
+.bocdiv {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 25px 10px;
+  padding: 0 20px;
+}
+.ftnc {
+  font-weight: bold;
+  font-size: 23px;
+  color: #bd2228;
+  padding-bottom: 20px;
+}
+.footer {
+  background-color: #bd2228;
+}
+.footer .footer-container {
+  padding: 0 210px;
+  display: flex;
+}
+.footer .list-footer {
+  padding: 35px 0 15px;
+  margin-left: 110px;
+}
+.mini-footer p {
+  margin-bottom: 7px;
+  font-size: 10px;
+}
+.mini-footer span {
+  padding-left: 15px;
+  color: #fff;
+  font-size: 10px;
+}
+.foot-chu {
+  padding-top: 20px;
+}
+.foot-chu p {
+  margin-bottom: 7px;
+  font-size: 10px;
+}
+.img-ft {
+  padding-bottom: 10px;
+}
+.list-footer p {
+  color: #fff;
+}
+.Tagname i {
+  color: #f8f8fa;
+}
+.fbyt i {
+  color: #b42532;
+  padding: 15px 10px;
+  scale: 2;
+}
+.col-footer li {
+  margin: 15px;
+  font-size: 10px;
+}
+a {
+  color: #f8f7fa;
+}
+.col-footer p {
+  margin: 15px 10px;
+  color: #f8f7fa;
+  font-weight: bold;
+}
+.col-row {
+  display: flex;
+  gap: 50px;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+.ft-second {
+  padding: 0 210px;
+}
+.ft-secondmain {
+  border-top: 1px solid white;
+}
+.theend i {
+  color: #f8f7fa;
+  font-size: 10px;
+}
+.theend p span {
+  font-size: 10px;
+  color: #f8f7fa;
+}
+.theend {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px 0px;
+}
+.oo {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 10px;
+  color: #f8f7fa;
+}
+.beb {
+  border-radius: 5px;
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+}
+.beb img {
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.boss :hover {
+  background-color: #221753;
+  transform: translateY(-20px);
+  transition: all 0.2s ease-in;
+}
+.boss {
+  display: block;
+}

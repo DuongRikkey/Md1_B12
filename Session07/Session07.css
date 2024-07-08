@@ -1,0 +1,131 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .post-container{
+    width: 620px;
+}
+.post-container img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.post-container h2{
+    margin-bottom: 10px;
+}
+.text-align-section{
+    width: 600px;
+    margin: auto;
+    font-size: 10px;
+}
+.text-align-section h2
+{
+margin-bottom:20px ;
+font-size: 30px;}
+.text-align-section p {
+
+    margin-bottom: 10px;
+}
+.text-align-section p span{ 
+    color: #bd1947;
+    margin-bottom: 10px;
+}
+.text-align-section .theory-wrapper{
+    padding: 10px;
+}
+.text-align-section .demo{
+    border: 3px solid green;
+    padding: 20px 0;
+    text-align: center;
+}
+.text-align-section  .example-wrapper
+{
+    background-color: #e4e8ec;
+    padding: 10px;
+
+}
+.example-wrapper h3{
+
+
+font-size: 25px; 
+margin-bottom: 10px; }
+.example-wrapper  .code-demo
+{
+    background-color: #fff;
+    border-left: 3px solid #05ac6e;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.text-align-section .example-wrapper button{
+    background-color: #05ac6e;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+} */
+ /* b3 */
+/* .modal-container
+{
+    width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+
+}
+.modal-container div {
+    padding: 10px 0;
+}
+.modal-container div:first-child {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #e3e3e3;
+}
+.modal-container div:last-child{
+    background-color: #f7f7f7;
+    border-top: 1px solid #e3e3e3;
+}
+.modal-container div h3, p{
+    margin-bottom: 10px;
+}
+.modal-container div button
+{
+    background-color: #0b6ffd;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: none;
+
+} */
+.post-container{
+    width: 500px;
+    position: relative;
+}
+.post-container img{
+    width: 100%;
+    
+}
+.post-container .title-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color:#fff;
+    background-color: #00000063;
+    width: 100%;
+    padding: 30px;
+}
+.post-container .title-container h3{
+ font-size: 28px;
+ margin-bottom: 10px;   
+}
+.post-container button{
+    position: absolute;
+    top: 10px;
+    left:20px;
+    background-color: #b23635;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+}
+.post-container .bt {
+
+}
