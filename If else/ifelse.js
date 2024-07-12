@@ -221,18 +221,18 @@
 //   );
 // }
 
-// let N = +prompt("Mời bạn nhập vào");
-// for (let i = 2; i < N; i++) {
-//   let check = true;
-//   if (N % i == 0) {
-//     check = false;
+let N = +prompt("Mời bạn nhập vào");
+for (let i = 2; i < N; i++) {
+  let check = true;
+  if (N % i == 0) {
+    check = false;
 
-//     break;
-//   }
-//   if (check) {
-//     console.log(`${N}Đây phải số nguyên tố`);
-//   }
-// }
+    break;
+  }
+  if (check) {
+    console.log(`${N}Đây phải số nguyên tố`);
+  }
+}
 
 // let n = +prompt("Mời bạn nhập vào0");
 // // số nguyên tố là số chỉ chia hết cho 1 và chính nó
