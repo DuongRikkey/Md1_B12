@@ -96,9 +96,14 @@
 //   sum = sum + i / (i * (i + 2));
 // }
 // console.log(sum);
-let count;
-let sum = 0;
-for (let i = 1; i <= n; ++i) {
-  sum = sum + 1 / (i * (i + 1));
+// let count;
+// let sum = 0;
+// for (let i = 1; i <= n; ++i) {
+//   sum = sum + 1 / (i * (i + 1));
+// }
+// console.log(sum);
+.section-hero{
+  margin-top: 10px;
+  background-color:white;
+  display: flex;
 }
-console.log(sum);

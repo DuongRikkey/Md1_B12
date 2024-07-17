@@ -534,9 +534,47 @@
 //   alert(`${Numberinput} k fai`);
 // }
 
-let n = prompt("Nhập");
-let r = "";
-for (let i = n.length - 1; i >= 0; i--) {
-  r += n[i];
+// function minArray(arr) {
+//   let min = arr[0];
+//   for (var i = 1; i < arr.length; i++) {
+//       if (arr[i] < min) {
+//           min = arr[i];
+//       }
+//   }
+//   return min;
+// }
+
+// let arr1 = [3, 5, 1, 8, -3, 7, 8];
+// let min = minArray(arr1);
+// alert(min);
+// Khai báo 
+function Duong(m1){ 
+  let max=m1[0];
+  for(i=0;i<m1.length;i++){
+    if(max <m1[i]){
+      max=m1[i];
+    }
+  }
+  return max
 }
-alert(`${r}`);
+let m2= [3, 5, 1, 8, -3, 7, 8];
+let max=Duong(m2);
+alert(max)
+
+
+// function Duong(arr){
+//   let min= arr[0]
+//   for(let i=0;i<arr.length;i++){
+//     if(min>arr[i]){
+//       min=arr[i]
+      
+//     }
+//   }
+//   return min
+// }
+// // let arr1 =[0,-1,-30,-4-6,12,99]
+// // let min= Duong(arr1)
+// // alert(min);
+// let  arr2=[8, 12, 6, 9, 20, 56, 89];
+// let min= Duong(arr2)
+// alert(min);

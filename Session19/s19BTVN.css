@@ -1,0 +1,54 @@
+/* body{
+    background-color: white;
+}
+.duongp2{
+    width: 700px;
+    height: 100px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    gap: 500px;
+}
+#box1{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+ 
+}
+#box2{
+    width: 250px;
+    height: 250px;
+    background-color: green;
+ 
+}
+#box3{
+    width: 250px;
+    height: 250px;
+    background-color: gray;
+ 
+}
+.box-total{
+    display: flex;
+    gap: 10px;
+}
+
+#text2{
+    text-decoration: underline;
+} */
+header{
+    width: 400px;
+    height: 160px;
+    text-align: start;
+    border: 1px solid black;
+    
+    
+}
+.main{
+    background-color: black;
+    color: white;
+}
+/* #Textposition{
+    position: absolute;
+    bottom:  15px;
+    left: 110px;
+} */

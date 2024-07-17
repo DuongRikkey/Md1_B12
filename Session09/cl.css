@@ -1,4 +1,4 @@
-.Duong span {
+/* .Duong span {
   user-select: none;
 }
 .Duong::before {
@@ -6,4 +6,10 @@
 }
 .Duong:: ::after{
   content: "cvv";
+} */
+.section-hero{
+  margin-top: 10px;
+  background-color:white;
+  display: flex;
+  width: 100%;
 }

@@ -407,3 +407,45 @@
 
 // // In mảng mới ra màn hình console
 // console.log("Mảng sau khi sắp xếp ngẫu nhiên:", arr);
+
+//Bài 7
+// let inputString = prompt("Nhập vào một chuỗi bất kỳ:");
+// let substrings = [];
+
+// // Duyệt qua từng vị trí bắt đầu của chuỗi
+// for (let start = 0; start < inputString.length; start++) {
+//   // Duyệt qua từng độ dài của chuỗi con
+//   for (let length = 1; length <= inputString.length - start; length++) {
+//     let substring = inputString.substr(start, length);
+//     substrings.push(substring);
+//   }
+// }
+
+// console.log("Các chuỗi con của chuỗi đã nhập:", substrings);
+
+//Bài 7 :Giỏi
+// let input = prompt("Mời bạn nhập nhé");
+// let output = [];
+// let i = 0;
+// while (i < input.length) {
+//   let j = i;
+//   let be = "";
+//   while (j < input.length) {
+//     be += input[j];
+//     output.push(be);
+//     j++;
+//   }
+//   i++;
+// }
+// console.log(output);
+//Bài 8
+let arr = [1, 2, 1, 3, 4, "f"];
+console.log("Mảng ban đầu:", arr);
+
+// Xóa đi phần tử đầu tiên của mảng
+if (arr.length > 0) {
+  arr.shift();
+}
+
+// In mảng ra màn hình sau khi xóa phần tử đầu tiên
+console.log("Mảng sau khi xóa phần tử đầu tiên:", arr);
